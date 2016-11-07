@@ -69,11 +69,7 @@ h1 {
     text-shadow: 1px 1px black;
 }
 
-footer {
-	position: absolute;
-	bottom: 10px;
-	
-}
+
 
 @media (max-width: 600px) {
   .logo {
@@ -81,4 +77,14 @@ footer {
 		float:right;
 		
   }
+	.jumbotron {
+	position: relative;
+	top:21px;
+	background-image: url(bg.jpg);
+	width:100%;
+	background-size:cover;
+	background-repeat: no-repeat;
+	color:white;
+	height: 250px;
+}
 }
