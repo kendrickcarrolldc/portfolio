@@ -1,0 +1,84 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+	background-color: #FEE300;
+}
+
+
+.navbar {
+	padding: 10px;
+}
+
+hr {
+	background-color: black;
+	border-color:black;
+	
+}
+
+.btn {
+	background-color: black;
+	color: white;
+}
+
+.btn {
+	:hover,
+ 
+  color: #fff;
+ 
+}
+
+/*
+.col-lg-12 {
+	background-color: black;
+	color: white;
+}
+*/
+
+.logo {
+	
+	float: right;
+/*
+	position: absolute;
+	top: 8px;
+	right: 10px;
+*/
+}
+
+.jumbotron {
+	position: relative;
+	top:21px;
+	background-image: url(bg.jpg);
+	width:100%;
+	background-size:cover;
+	background-repeat: no-repeat;
+	color:white;
+	height: 260px;
+}
+
+/*
+.col-md-4 {
+	border: 1px solid black;
+	border-radius: 5px;
+	min-height: 200px;
+	
+}
+*/
+
+h1 {
+    text-shadow: 1px 1px black;
+}
+
+footer {
+	position: absolute;
+	bottom: 10px;
+	
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 300px;
+		float:right;
+		
+  }
+}
