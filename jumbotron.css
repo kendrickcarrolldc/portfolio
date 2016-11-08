@@ -3,16 +3,23 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 	background-color: #FEE300;
+	background-image: url(pat.jpg);
+	
+  margin-bottom: 60px;
+
 }
 
 
 .navbar {
 	padding: 10px;
+	height: 95px;
 }
 
 hr {
 	background-color: black;
 	border-color:black;
+	max-width: 85%;
+	
 	
 }
 
@@ -21,11 +28,8 @@ hr {
 	color: white;
 }
 
-.btn {
-	:hover,
- 
-  color: #fff;
- 
+ p:hover a {
+    color:#fee300!important;
 }
 
 /*
@@ -38,11 +42,22 @@ hr {
 .logo {
 	
 	float: right;
+	padding-top: 10px;
+	
 /*
 	position: absolute;
 	top: 8px;
 	right: 10px;
 */
+}
+
+.linked {
+	width: 45px;
+	padding-top: 10px;
+}
+
+.glyphicon {
+	padding-right: 5px;
 }
 
 .jumbotron {
@@ -53,7 +68,7 @@ hr {
 	background-size:cover;
 	background-repeat: no-repeat;
 	color:white;
-	height: 260px;
+	height: 300px;
 }
 
 /*
@@ -68,15 +83,36 @@ hr {
 h1 {
     text-shadow: 1px 1px black;
 }
-
+.footer {
+  position: absolute;
+	vertical-align: middle;
+	bottom: 0px;
+	text-align: center;
+  
+  width: 100%;
+	padding: 2px;
+	
+	
+  /* Set the fixed height of the footer here */
+ 
+  
+}
 
 
 @media (max-width: 600px) {
   .logo {
-    width: 300px;
+    width: 250px;
 		float:right;
+		padding-top: 16px;
 		
   }
+	
+	.linked {
+	width: 40px;
+		top: 15px;
+		float:left;
+	
+}
 	.jumbotron {
 	position: relative;
 	top:21px;
@@ -87,4 +123,6 @@ h1 {
 	color:white;
 	height: 250px;
 }
+	
+	
 }
