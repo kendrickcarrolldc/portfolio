@@ -1,178 +1,319 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
-  padding-bottom: 20px;
-	background-color: #FEE300;
-	background-image: url(pat.jpg);
-	
-  margin-bottom: 60px;
+/*  padding-bottom: 20px;*/
+background-image: url(pat.jpg);
 
+	background-size: contain;
+	width: 100%;
+	height: 100%;
+/*  margin-bottom: 60px;*/
 }
 
+html {
+	height: 100%;
+}
 
+.title {
+	background-color:rgba(0,0,0,0.80);
+	color: white;
+	padding: 3px;
+	border-radius: 3px;
+	vertical-align: middle;
+	margin-bottom: 20px ;
+	
+	
+}
+#navbar {
+	height: auto;
+}
+nav {
+	height: auto;
+}
 .navbar {
-	padding: 10px;
-	height: 80px;
-	
-
+	height: auto;
+}
+.containernav {
+	height: auto;
+}
+.logo {
+   width: 250px;
+	 top: 5px; 
+	position: absolute;
+	right:5px;
+		margin: 3px;
+	 
 }
 
+header {
 
+	height: 100%;
+}
+
+.jumbotron {
+	background-image: url(bg2.jpg);
+/*	background-origin: */
+/*	background-blend-mode:darken;*/
+	background-size: cover;
+/*	align-content: center;*/
+/*	vertical-align: middle;*/
+	height: 100%;
+	position: relative;
+/*	display:block;*/
+/*    overflow:hidden;*/
+	
+}
+
+.jumbotron img {
+		padding-top: 160px;
+		display: block;
+    margin: auto;
+    width: 50%;
+	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+            animation: fadein 3s;
+}
 
 .row {
-	display: flex;
-	align-content: space-around;
-	flex-direction: row;
-	flex-wrap: wrap;
+/*	background-image: url(pat.jpg);*/
 }
 
-.col-md-4 {
-	transition: 0.5s ease;
-/*	background-color: black;*/
-	background-blend-mode:multiply;
-/*	border: 1px solid black;*/
-	box-sizing:border-box;
-	margin: 5px;
-	width: 32%;
-	min-height: 120px;
+.featurette-divider {
 	
+	border-color: black;
+  margin: 30px 0; /* Space out the Bootstrap <hr> more */
 }
 
-.col-md-4:hover
-{
-        box-shadow: inset 0 0 0 5px black;
-			  border-radius: 5px;
+/* Thin out the marketing headings */
+/*
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+*/
+
+btn {
+    background-color: black;
+    color: white;
 }
 
-
-hr {
-	background-color: black;
-	border-color:black;
-	max-width: 85%;
-	
-	
-}
-
-.btn {
-	background-color: black;
-	color: white;
-}
-
- p:hover a {
-    color:#fee300!important;
+p:hover a {
+   color:#fee300 !important;
 }
 
 /*
 .col-lg-12 {
-	background-color: black;
-	color: white;
+    background-color: black;
+    color: white;
 }
 */
 
-.logo {
-	
-	float: right;
-	padding-top: 10px;
-	width: 300px;
 
-	position: absolute;
-	top: 8px;
-	right: 10px;
-}
 
 .linked {
-	width: 30px;
-	
-}
-
-.glyphicon {
-	padding-right: 5px;
-}
-
-.jumbotron {
-	position: relative;
-	top:21px;
-	background-image: url(bg.jpg);
-	width:100%;
-	background-size:cover;
-	background-repeat: no-repeat;
-	color:white;
-	height: 380px;
-}
-.container {
-	margin-top: 18px;
+    width: 30px;
+    
 }
 
 .col-md-4 {
+    transition: 0.5s ease;
+	text-align: center;
+	align-content: center;
+	padding: 10px;
+/*    background-color: black;*/
+    background-blend-mode:multiply;
+/*    border: 1px solid black;*/
+    box-sizing:border-box;
+    
+    
+    height: 250px;
+    
+}
+
+.col-md-4:hover
+{
+       box-shadow: inset 0 0 0 5px black;
+              border-radius: 5px;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+}
+
+
+/*
+.navbar {
+    padding: 10px;
+    height: 80px;
+    
+
+}
+*/
+
+/*graphics grid*/
+.row {
 	
+	margin: 0px 0px 20px 0px;
+}
+.col-sm-4 {
+	box-sizing: border-box;
+	height: 250px;
+	margin: 0px;
+/*	 border: 1px solid blue;*/
+    overflow: hidden;
+    position: relative;
+/*    float: left;*/
+/*    display: inline-block;*/
+    cursor: pointer;
+		
+}
+
+.col-sm-4 h2 {
+	text-align: center;
+	display: none;
+		
+}
+
+.child {
+	 
+    height: 100%;
+    width: 100%;
+	  align-content: center;
+    background-size:cover;
+    background-repeat:repeat;
+	  position: absolute;
+    left: 0px;
+    transition: all .8s;
+}
+
+/*grid images*/
+.proj1 {
 	
-	
-  margin-bottom: 30px;
-  text-align: center;
+	align-content: center;
+	background-image: url(p1.jpg);
 	
 	
 }
-	
 
 
-h1 {
-    text-shadow: 1px 1px black;
+
+
+.p2 {
+	align-content: center;
+	background-image: url(p2.jpg)
+}
+.p3 {
+	align-content: center;
+	background-image: url(p3.jpg)
+}
+.p4 {
+	align-content: center;
+	background-image: url(p4.jpg)
+}
+.p5 {
+	align-content: center;
+	background-image: url(p5.jpg)
+}
+.p6 {
+	align-content: center;
+	background-image: url(p6.jpg)
 }
 
+ .a2 {
+    display: none;
+    font-size: 15px;
+    color: white !important;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    cursor: pointer;
+    /*text-decoration: none;*/
+}
+
+.col-sm-4:hover .child, .col-sm-4:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+.col-sm-4:hover .child:before, .col-sm-4:focus .child:before {
+    display: block;
+}
+
+.col-sm-4:hover .a2, .col-sm-4:focus .a2 {
+	 animation: fadein 2s;
+    display: block;
+}
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.60);
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 
 @media (max-width: 775px) {
   .logo {
-    width: 270px;
-		height: auto;
-		float:right;
-		padding-top: 16px;
+		width: 200px;
+   
 		
   }
 	
-	.col-md-4 {
-	transition: 0.5s ease;
-/*	background-color: black;*/
-	background-blend-mode:multiply;
-/*	border: 1px solid black;*/
-	box-sizing:border-box;
-	margin: 15px;
-	width: 100%;
-	min-height: 120px;
+	.navbar-toggle {
+		top: 2px;
+		left: 4px;
+		float:left;
+		
+	}
+	
+	.jumbotron {
+	background-image: url(bg2.jpg);
+/*	background-origin: */
+/*	background-blend-mode:darken;*/
+	background-size: cover;
+/*	align-content: center;*/
+/*	vertical-align: middle;*/
+	height: 400px;
+	position: relative;
+/*	display:block;*/
+/*    overflow:hidden;*/
 	
 }
 	
-	.navbar {
-	padding: 10px;
-	height: 110px;
-	
-
+	.jumbotron img {
+		padding-top: 100px;
+		display: block;
+    margin: auto;
+    width: 70%;
+	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+            animation: fadein 3s;
 }
-	.row {
-	display: flex;
-		width: 100%;
-	align-content: space-between;
-	flex-direction: column;
-	flex-wrap: wrap;
-}
-	
-	.linked {
-	width: 30px;	
-}
-	li {
-		display: none;
+	.img-circle {
+		display:none;
 	}
 	
 
-	.jumbotron {
-	position: relative;
-	top:21px;
-	background-image: url(bg.jpg);
-	width:100%;
-	background-size:cover;
-	background-repeat: no-repeat;
-	color:white;
-	height: 250px;
-}
 	
 	
 }
