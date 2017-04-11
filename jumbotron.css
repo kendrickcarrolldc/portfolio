@@ -21,8 +21,8 @@ html {
 	border-radius: 3px;
 	vertical-align: middle;
 	margin-bottom: 20px ;
-	
-	
+
+
 }
 #navbar {
 	height: auto;
@@ -38,11 +38,11 @@ nav {
 }
 .logo {
    width: 250px;
-	 top: 5px; 
+	 top: 5px;
 	position: absolute;
 	right:5px;
 		margin: 3px;
-	 
+
 }
 
 header {
@@ -58,10 +58,10 @@ header {
 /*	align-content: center;*/
 /*	vertical-align: middle;*/
 	height: 100%;
-	position: relative;
+	/*position: relative;*/
 /*	display:block;*/
 /*    overflow:hidden;*/
-	
+
 }
 
 .jumbotron img {
@@ -80,7 +80,7 @@ header {
 }
 
 .featurette-divider {
-	
+
 	border-color: black;
   margin: 30px 0; /* Space out the Bootstrap <hr> more */
 }
@@ -114,7 +114,7 @@ p:hover a {
 
 .linked {
     width: 30px;
-    
+
 }
 
 .col-md-4 {
@@ -126,10 +126,10 @@ p:hover a {
     background-blend-mode:multiply;
 /*    border: 1px solid black;*/
     box-sizing:border-box;
-    
-    
+
+
     height: 250px;
-    
+
 }
 
 .col-md-4:hover
@@ -148,14 +148,14 @@ p:hover a {
 .navbar {
     padding: 10px;
     height: 80px;
-    
+
 
 }
 */
 
 /*graphics grid*/
 .row {
-	
+
 	margin: 0px 0px 20px 0px;
 }
 .col-sm-4 {
@@ -168,17 +168,17 @@ p:hover a {
 /*    float: left;*/
 /*    display: inline-block;*/
     cursor: pointer;
-		
+
 }
 
 .col-sm-4 h2 {
 	text-align: center;
 	display: none;
-		
+
 }
 
 .child {
-	 
+
     height: 100%;
     width: 100%;
 	  align-content: center;
@@ -191,11 +191,11 @@ p:hover a {
 
 /*grid images*/
 .proj1 {
-	
+
 	align-content: center;
 	background-image: url(p1.jpg);
-	
-	
+
+
 }
 
 
@@ -274,17 +274,17 @@ p:hover a {
 @media (max-width: 775px) {
   .logo {
 		width: 200px;
-   
-		
+
+
   }
-	
+
 	.navbar-toggle {
 		top: 2px;
 		left: 4px;
 		float:left;
-		
+
 	}
-	
+
 	.jumbotron {
 	background-image: url(bg2.jpg);
 /*	background-origin: */
@@ -296,9 +296,9 @@ p:hover a {
 	position: relative;
 /*	display:block;*/
 /*    overflow:hidden;*/
-	
+
 }
-	
+
 	.jumbotron img {
 		padding-top: 100px;
 		display: block;
@@ -312,8 +312,8 @@ p:hover a {
 	.img-circle {
 		display:none;
 	}
-	
 
-	
-	
+
+
+
 }
